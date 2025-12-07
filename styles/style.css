@@ -242,13 +242,13 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.button__text {
+.button__text, .button__text_popup {
   position: relative;
   color: var(--accent-color);
   z-index: 2;
 }
 
-.button:hover .button__text {
+.button:hover .button__text,  .button:hover .button__text_popup{
   color: var(--bg-color);
 }
 
