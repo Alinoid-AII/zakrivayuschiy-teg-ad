@@ -252,6 +252,11 @@
   color: var(--bg-color);
 }
 
+.button_type_save {
+  margin: auto;
+  margin-block-end: 103px;
+}
+
 .button_type_save svg {
   position: relative;
   z-index: 2;

@@ -521,6 +521,10 @@
         </div>
       </article>
 
+
+    </main>
+
+    <footer class="footer">      
       <button
         class="button footer-button button_type_save"
         type="button"
@@ -1009,7 +1013,8 @@
         </svg>
         <span class="button__text_popup">Сохранить на&nbsp;память</span>
       </button>
-      <dialog class="popup" id="floppy-dialog">
+    </footer>
+    <dialog class="popup" id="floppy-dialog">
         <svg
           width="28"
           height="28"
@@ -1559,12 +1564,11 @@
         </svg>
         <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
         <div class="popup__controller">
-          <button class="button popup__close-button" type="button">
+          <button class="button popup__close-button" type="button" onclick="window['floppy-dialog'].close()">
             <span class="button__text_popup">ОК</span>
           </button>
         </div>
-      </dialog>
-    </main>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
