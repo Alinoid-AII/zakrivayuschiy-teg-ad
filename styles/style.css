@@ -248,7 +248,7 @@
   z-index: 2;
 }
 
-.button:hover .button__text,  .button:hover .button__text_popup{
+.button:hover .button__text, .button:hover .button__text_popup {
   color: var(--bg-color);
 }
 
