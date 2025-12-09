@@ -242,78 +242,14 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.button__text, .button__text_popup {
+.button__text {
   position: relative;
   color: var(--accent-color);
   z-index: 2;
 }
 
-.button:hover .button__text, .button:hover .button__text_popup {
+.button:hover .button__text {
   color: var(--bg-color);
-}
-
-.button_type_save {
-  margin: auto;
-  margin-block-end: 103px;
-}
-
-.save-button {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin: 0 auto;
-  padding: 15px 20px;
-  max-inline-size: 83vw;
-}
-
-.floppy {
-  position: relative;
-  z-index: 1;
-  color: var(--button-text-color, #fff);
-  inline-size: var(--floppy-size, 28px);
-  block-size: var(--floppy-size, 28px);
-  mix-blend-mode: difference;
-}
-
-.modal[open] {
-  display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 30px;
-  column-gap: clamp(12px, 2vw, 20px);
-  padding: var(--modal-padding-inline, 30px) 30px;
-  color: var(--main-color, #000);
-  font-family: var(--accent-font), fantasy;
-  font-size: 14px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  background-color: var(--bg-color, #fff);
-  max-inline-size: 357px;
-}
-
-.modal__button {
-    grid-column: 1 / -1;
-    text-transform: uppercase;
-    inline-size: 100%;
-}
-
-.modal__title {
-  font-size: var(--accent-font-size, 0.875rem);
-  line-height: 1.5;
-}
-
-.floppy--modal {
-  --floppy-size: 38px;
-}
-
-.modal::backdrop {
-  background-color: rgb(0 0 0 / 0.75);
-}
-
-.modal__title {
-    font-size: var(--accent-font-size, 0.875rem);
-    line-height: 1.5;
 }
 
 .button_type_save svg {
